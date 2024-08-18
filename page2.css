@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    padding: 3vw 3vw;
+}
+
+#page2 h1 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 55px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(104, 104, 104);
+}
+#page2 h4 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 5px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(72, 72, 72);
+}
+#page2 h2 {
+    margin-top: 5vh;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(243, 243, 243);
+}
+
+#cryptolist{
+    padding-top: 5vh;
+}
+#cryptoelement{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: solid 2px rgb(104, 104, 104);
+}
+#cryptoelement h4{
+    line-height: 50px;
+    font-size: 30px;
+}
+
+@media(max-width: 800px){
+    #page2 h1{
+        font-size: 35px;
+        padding-top: 2vw;
+        padding-left: 1vw;
+    }
+    #page2 h4{
+        padding-left: 1.3vw;
+    }
+    #cryptoelement h4{
+        font-size: 20px;
+    }
+    #cryptolist{
+        padding-bottom: 5vh;
+    }
+    #page2 h2{
+        font-size: 50px;
+        line-height: 50px;
+        text-overflow: wrap;
+    }
+}
+
+
