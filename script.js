@@ -1,7 +1,7 @@
 var loader = document.querySelector("#loader")
 
 setTimeout(function(){
-    loader.style.top = "-100%"
+    loader.style.top = "-200%"
 },3200)
 
 var btc = document.getElementById("bitcoin");
