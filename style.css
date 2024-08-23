@@ -18,18 +18,19 @@ html,body{
     height: 100%;
     width: 100%;
     position: fixed;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(0, 0, 0);
     z-index: 999;
     top: 0;
-    transition: all ease 1s;
+    transition: all ease 2s;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #loader h1{
-    font-family: modern;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
     font-size: 10vw;
-    color: rgb(0, 0, 0);
+    color: rgb(187, 187, 187);
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
@@ -124,6 +125,7 @@ html,body{
 #moving-text h1{
     font-size: 30px;
     display: inline-block;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 #gola{
@@ -171,11 +173,20 @@ html,body{
 @media(max-width: 800px){
     #loader h1{
         font-size: 90px;
+        font-weight: 300;
+    }
+    .imgload{
+        width: 300px;
+        height: 300px;
     }
     #page1 h1{
         font-size: 35px;
         padding-top: 2vw;
         padding-left: 1vw;
+    }
+    #moving-text h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     #page1 h4{
         padding-left: 1.3vw;
