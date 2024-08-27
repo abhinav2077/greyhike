@@ -30,7 +30,8 @@ html,body{
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-size: 10vw;
-    color: rgb(187, 187, 187);
+    font-weight: 100;
+    color: #abff2e;
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
