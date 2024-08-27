@@ -193,13 +193,17 @@ html,body{
         padding-left: 1.3vw;
     }
     #page1 h3{
-        font-size: 50px;
+        margin-top: 5vh;
+        font-size: 40px;
         line-height: 50px;
         text-overflow: wrap;
     }
     #page1 h2{
-        font-size: 50px;
+        font-size: 40px;
         line-height: 50px;
         text-overflow: wrap;
+    }
+    #gs{
+        background-color: #abff2e;
     }
 }
