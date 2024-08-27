@@ -137,6 +137,7 @@ html,body{
 #moving-text h1{
     font-size: 30px;
     display: inline-block;
+    color: #abff2e;
     padding-top: 10px;
     padding-bottom: 10px;
 }
