@@ -76,6 +76,10 @@ html,body{
     font-weight: 600;
     font-style: normal;
     color: rgb(104, 104, 104);
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease;
 }
 #page1 h4 {
     font-family: "Orbitron", sans-serif;
@@ -84,6 +88,10 @@ html,body{
     font-weight: 600;
     font-style: normal;
     color: rgb(72, 72, 72);
+    animation-name: slideinleft;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease;
 }
 #page1 h3 {
     font-family: "Orbitron", sans-serif;
@@ -93,7 +101,11 @@ html,body{
     line-height: 105px;
     font-weight: 600;
     font-style: normal;
-    color: rgb(72, 72, 72)
+    color: rgb(72, 72, 72);
+    animation-name: opacity;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-timing-function: ease;
 }
 #page1 h3 span{
     color: rgb(226, 226, 226);
@@ -165,10 +177,45 @@ html,body{
     padding: 20px 40px;
     border-style: none;
     transition: background-color 0.5s;
+    animation-name: opacity;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-timing-function: ease;
 }
 #gs:hover{
     cursor: pointer;
     background-color: greenyellow;
+}
+
+@keyframes animation {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideinleft {
+    from{
+        transform: translateX(-20vw);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 @media(max-width: 800px){
