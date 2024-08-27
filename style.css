@@ -186,8 +186,10 @@ html,body{
         padding-left: 1vw;
     }
     #moving-text h1{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        color: #abff2e;
+        font-size: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     #page1 h4{
         padding-left: 1.3vw;
