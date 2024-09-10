@@ -124,6 +124,7 @@ form h3{
     font-family: "Orbitron", sans-serif;
     color: rgb(102, 102, 102);
     margin-top: 20px;
+    padding: 0 10px;
     display: flex;
     text-align: center;
 }
