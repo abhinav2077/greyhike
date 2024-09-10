@@ -126,15 +126,17 @@ form h3{
     }
     #user_body{
         font-size: 20px;
+        padding: 0 5vw;
     }
     #user_body input{
-        width: 40vw;
+        width: 45vw;
     }
     #pass_body{
         font-size: 20px;
+        padding: 1vh 5vw;
     }
     #pass_body input{
-        width: 40vw;
+        width: 45vw;
     }
     .form p{
         font-size: 15px;
