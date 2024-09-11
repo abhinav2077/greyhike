@@ -25,7 +25,7 @@ html,body{
 form{
     height: 40vh;
     width: 30vw;
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ form{
     animation-name: shadow;
     animation-duration: 3s;
     animation-timing-function: ease;
-    box-shadow: 0 0 20px #abff2e;
+    box-shadow: 0 0 10px #abff2e;
 }
 
 form h3{
@@ -133,7 +133,7 @@ form h3{
         box-shadow: 0 0 0 #abff2e;
     }
     to{
-        box-shadow: 0 0 20px #abff2e;
+        box-shadow: 0 0 10px #abff2e;
     }
 }
 @keyframes animation {
