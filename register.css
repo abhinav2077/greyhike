@@ -59,7 +59,7 @@ form h3{
     justify-content: space-between;
     animation-name: animation;
     animation-timing-function: ease;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 #user_body input{
     font-family: "Orbitron", sans-serif;
@@ -85,7 +85,7 @@ form h3{
     justify-content: space-between;
     animation-name: animation;
     animation-timing-function: ease;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 #pass_body input{
     border: none;
